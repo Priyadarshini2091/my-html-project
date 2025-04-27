@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function dragStartHandler(event) {
+            event.dataTransfer.setData("text", event.target.id)
+        }
+        function dragOverHandler(eve) {
+            eve.preventDefault();
+        }
+        function dragHandler(ev) {
+            ev.preventDefault();
+            const data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Drag and Drop API</h1>
+    <div id="div1"
+    ondrop="dragHandler(ev)"
+    ondragover="dragOverHandler(eve)"
+    >
+
+    </div>
+    <h1 id="h1" draggable="true" ondragstart="dragStartHandler(event)">NCET</h1>
+</body>
+</html>

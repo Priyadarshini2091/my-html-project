@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <style>
+    .gallery img {
+      margin: 10px;
+      border: 2px solid #ccc;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Gallery</h1>
+  <div class="gallery">
+    <img src="Assets/image 1.jpg"  style="width: 200px; height: 250px;" alt="Priya 1" title="Priya 1">
+    <img src="Assets/image2.jpg" style="width: 200px; height: 250px;" alt="Priya 2" title="Priya 2">
+    <img src="Assets/image 3.jpg" style="width: 200px; height: 250px;"alt="Priya 3" title="Priya 3">
+  </div>
+
+  <h2>Clickable Map</h2>
+  <img src="Assets/image 1.jpg" usemap="#map" alt="Priya" width="400" height="200">
+  <map name="Priya 1">
+    <!-- <area shape="rect" coords="34,44,270,350" href="Purse.com" alt="Purse"> -->
+    <area shape="rect" coords="34,44,270,350" href="goggle.com" alt="goggle">
+    </map>  
+    <map name="Priya2">
+    <img src="Assets/image 2.jpg" usemap="#map" alt="Priya" width="400" height="200">
+    <area shape="poly" coords="175,172,335,250" href="bag.com" alt="bag">
+  </map>
+</body>
+</html>
