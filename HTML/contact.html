@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f4f6f8;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        nav {
+            background-color: #1e3a8a;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            text-align: center;
+            margin-top: 30px;
+            padding: 0 20px;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 60%;
+            background-color: #ffffff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        td, th {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+        iframe {
+            border: 0;
+            margin: 20px auto;
+            display: block;
+            width: 300px;
+            height: 250px;
+        }
+        .contact-form {
+            margin: 40px auto;
+            width: 60%;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #b0c4de;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .contact-form button {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #355ecb;
+        }
+        .social-links {
+            margin-top: 40px;
+        }
+        .social-links a {
+            margin: 0 15px;
+            color: #1e3a8a;
+            font-size: 32px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #355ecb;
+        }
+        footer {
+            background-color: #e0e7ff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+            color: #555;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact Me</a>
+</nav>
+
+<!-- Location -->
+<section>
+    <h1>Contact Me</h1>
+    <p>You can find me here:</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.813053030647!2d85.77157997465129!3d20.225088114897225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a62b00000001%3A0xe9dcae10825e08b!2sNM%20Institute%20Of%20Engineering%20%26%20Technology%20(NMIET)!5e0!3m2!1sen!2sin!4v1745562862544!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<!-- Availability Table -->
+<section>
+    <h2>Availability</h2>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th colspan="2">Time</th>
+        </tr>
+        <tr>
+            <td>Monday - Friday</td>
+            <td>10:00 AM</td>
+            <td>5:00 PM</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Saturday - Sunday</td>
+            <td>Morning</td>
+            <td>10:00 AM - 12:00 PM</td>
+        </tr>
+        <tr>
+            <td>Evening</td>
+            <td>4:00 PM - 6:00 PM</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Contact Form -->
+<section class="contact-form">
+    <h2>Send a Message</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- Social Media Links -->
+<section class="social-links">
+    <h2>Connect with Me</h2>
+    <a href="https://www.instagram.com/priya_dar_shini_2005/?hl=en" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/priyadarshini-muduli-908005314/" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+        <i class="fab fa-facebook"></i>
+    </a>
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2025 Priyadarshini Muduli. All rights reserved.
+</footer>
+
+</body>
+</html>
