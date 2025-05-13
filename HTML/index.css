@@ -1,6 +1,55 @@
-h3{
-    background-color: grey;
+/* * {
+    background-color: aqua;
 }
-h1{
-    background-color: green;
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+
+
+body {
+    background-color: rgb(18, 157, 127);
+}
+
+/* property: 'property value' */
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(77, 39, 174);
+}
+/* selector */
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 300;  
+    color: rgb(26, 7, 109);   
+}
+/* declaration block */
+
+#selector {
+    text-align: center;
+    color: rgb(117, 31, 197);
+}
+
+ol.categories {
+    background-color: antiquewhite;
+    color: rgb(107, 26, 142);
+    text-align: center;
+}
+
+ol.categories li.simple {
+    background-color: rgb(70, 148, 162);
+    /* text-align: right; */
+}
+
+ul li.simple {
+    color: burlywood;
+}
+
+h2, pre, blockquote{
+    text-align: center;
+    color: rgb(148, 15, 15);
+
 }
