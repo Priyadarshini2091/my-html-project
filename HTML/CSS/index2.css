@@ -1,0 +1,75 @@
+body {
+    background-image: url(../Assets1/background\ gif.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* body{
+    background:url("../Assets1/background\ gif.gif") no-repeat fixed;
+} */
+
+li {
+    color: rgb(151, 247, 16);
+}
+
+h2 {
+    color: beige;
+}
+
+p.dotted {
+    border-style: dotted;
+    color: aqua;
+    text-align: center;
+}
+p.dashed {
+    border-style: dashed;
+    color: bisque;
+    text-align: center;
+}
+p.solid {
+    border-style: solid;
+    color: aquamarine;
+    text-align: center;
+}
+p.double {
+    border-style: double;
+    color: rgb(138, 232, 15);
+    text-align: center;
+}
+p.groove {
+    border-style: groove;
+    color: antiquewhite;
+    text-align: center;
+}
+p.ridge {
+    border-style: ridge;
+    color: azure;
+    text-align: center;
+}
+p.inset {
+    border-style: inset;
+    color: blanchedalmond;
+    text-align: center;
+}
+p.outset {
+    border-style: outset;
+    color: darksalmon;
+    text-align: center;
+}
+p.none {
+    border-style: none;
+    color: floralwhite;
+    text-align: center;
+}
+p.hidden {
+    border-style: hidden;
+    color: cornsilk;
+    text-align: center;
+}
+p.mix {
+    border-style: mix;
+    color: lightcyan;
+    text-align: center;
+}
