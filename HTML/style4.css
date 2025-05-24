@@ -1,0 +1,57 @@
+ /* h1 {
+    color: red;
+    background-color: antiquewhite;
+}
+
+p {
+    color: rgb(76, 15, 133);
+    background-color: darkkhaki;
+} */
+
+/* h1 {
+    background-color: blanchedalmond;
+    color: brown;
+} 
+
+.nmiet {
+    color: black;
+}
+
+.btn-l {
+    color: brown;
+    background-color: burlywood;
+}
+
+#special-box {
+    background-color: aqua;
+    color: brown;
+} */
+
+/* h1{
+    color: blue;
+    font-size: 30px;
+    background-color: rgb(white, green, blue)
+}
+
+*{
+
+} */
+
+ h1 {
+    color: red;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+p {
+    color: bisque;
+    background-color: black;
+}
+
+#special-box{
+    background-color: blueviolet;
+}
+
+.First{
+    background-color: cornflowerblue;
+}

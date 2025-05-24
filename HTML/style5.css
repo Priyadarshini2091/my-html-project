@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    background-color: rgb(238,130,238 );
+}
+
+h3 {
+    background-color: rgba(255,0,0,0.5 );
+}
+
+h4 {
+    background-color: #00ff00;
+}
+
+p {
+    color: blue;
+}
+
+.hsl {
+    background-color: hsl(240,10%,50%);
+    color: black;
+}
+
+.hsla {
+    background-color: hsla(240,100%,50%,0.3);
+    color: black;
+}
+
+.box {
+    /* border-width: 4px;
+    border-style: solid; */
+    border-color: crimson;
+    padding: 8px;
+    width: 80%;
+    margin: 20px auto;
+}

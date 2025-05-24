@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.box {
+    background: yellowgreen;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.border-box {
+    border: 4px solid #343434;
+    align-items: center;
+}
+.margin-box {
+    border: 4px solid #498949;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    background-color: cornflowerblue;
+    /* margin: 40px;
+    display: inline; */
+}

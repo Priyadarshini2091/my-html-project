@@ -1,0 +1,17 @@
+/* body {
+    background-color: lightblue;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    color: aliceblue;
+    background-color: yellow;
+    background-image: url("Assets1/background\ gif.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+body{
+  background: lightblue url("./Assets1/background\ gif.gif") no-repeat center fixed;
+}
