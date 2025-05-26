@@ -3,11 +3,9 @@ body {
     padding: 20px;
     background: beige;
 }
-
 h1 {
     text-align: center;
 }
-
 h2 {
     text-align: center;
 }
@@ -24,11 +22,16 @@ h3 {
     align-items: center;
 }
 .margin-box {
-    border: 4px solid #498949;
+    background: #ebf; 
+    width: 20;
+    height: 20;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 60px;
-    background-color: cornflowerblue;
-    /* margin: 40px;
-    display: inline; */
+    border-radius: 50%;
+}
+.padding-box {
+    background-color: lightpink;
+    display:inline-block ;
+    padding: 10px 80px 40px 5px;
 }
