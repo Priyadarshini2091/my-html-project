@@ -6,16 +6,16 @@
 
 .div_123 {
     height: 300px;
-    width: 50%;
+    max-width: 50%;
     background-color: rgb(84, 212, 169);
 }
 .div_456 {
     height: 200px;
-    width: 50%;
+    max-width: 50%;
     background-color: rgb(233,217,32);
 }
 .div_9876 {
     height: 100px;
-    width: 50%;
+    max-width: 50%;
     background-color: rgb(237,13,234);
 }
