@@ -1,0 +1,57 @@
+body {
+    /* background-image: url(../Assets1/background\ gif.gif); */
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p.dotted {
+    outline: dotted;
+    color: rgb(27, 150, 150); 
+    text-align: center;
+}
+p.dashed {
+    outline: dashed;
+    color: rgb(167, 124, 71);
+    text-align: center;
+}
+p.solid {
+    outline: solid;
+    color: rgb(12, 108, 76);
+    text-align: center;
+}
+p.double {
+    outline: double;
+    color: rgb(72, 120, 9);
+    text-align: center;
+}
+p.groove {
+    outline: groove;
+    color: rgb(150, 95, 22);
+    text-align: center;
+}
+p.ridge {
+    outline: ridge;
+    color: rgb(6, 94, 94);
+    text-align: center;
+}
+p.inset {
+    outline: inset;
+    color: rgb(137, 85, 6);
+    text-align: center;
+}
+p.outset {
+    outline: outset;
+    color: rgb(157, 47, 10);
+    text-align: center;
+}
+p.none {
+    outline: none;
+    color: rgb(136, 104, 41);
+    text-align: center;
+}
+p.hidden {
+    outline: hidden;
+    color: rgb(129, 119, 82);
+    text-align: center;
+}
