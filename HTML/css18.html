@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* a:hover {
+            color: blueviolet;
+        } */
+        /* a:link {
+            color: blue;
+        }
+        a:visited {
+            color: bisque;
+        }
+        a.hello:hover {
+            color: darkmagenta;
+        }
+
+        body {
+            background-color: cadetblue;
+        }
+        div p {
+            display: none;
+            background-color: darkkhaki;
+            padding: 20px;
+        }
+
+        div:hover p {
+            display: block;
+            background-color: darkcyan;
+        } */
+        p::first-line{
+            color: darkkhaki;
+        }
+        p::first-letter {
+            color: darkred;
+            font-size: xx-large;
+        }
+        h2::after {
+            content: url(Assets1/giphy.gif);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Pseudo-Class</h1>
+    <a href="http://127.0.0.1:5500/HTML/homepage.html">Priyadarshini Muduli</a>
+    <hr>
+    <a class="Hello" href="https://en.wikipedia.org/wiki/Trees">Trees</a>
+    <hr>
+    <div>
+        Lorem ipsum dolor sit amet.
+        <p>
+            Lorem ipsum dolor, sit amet consectetur <br>
+            adipisicing elit. Itaque facilis dolorum
+            ducimus laudantium veniam ipsa illo architecto 
+            aspernatur aliquid molestias.
+        </p>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur <br>::
+        adipisicing elit. 
+        Lorem ipsum dolor sit, amet 
+        consectetur adipisicing elit. Saepe, quos?
+    </p>
+
+    <h2>Hello I am here to learn ::after</h2>
+</body>
+</html>

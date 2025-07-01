@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+}
+.Apple {
+    position: relative;
+    /* z-index: 1; */
+    border: 1px solid red;
+    background-color: red;
+    height: 100px;
+    margin: 30px;
+}
+.Banana {
+    position: absolute;
+    z-index: 3;
+    border: 1px solid rgb(120, 222, 19);
+    background-color: aquamarine;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+.Kiwi {
+    position: absolute;
+    z-index: 2;
+    border: 1px solid rgb(242, 16, 238);
+    background-color: darkolivegreen;
+    width: 35%;
+    left: 270px;
+    bottom: -15px;
+    height: 100px;
+}

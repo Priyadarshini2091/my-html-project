@@ -1,0 +1,6 @@
+div + p {
+    background-color: hotpink;
+}
+section ~ p {
+    background-color: darkcyan;
+}

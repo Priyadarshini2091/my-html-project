@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="" />
+    <style>
+      h1 {
+        background-color: rgb(103, 202, 202);
+        color: brown;
+      }
+      .align {
+        text-align: center;
+      }
+      .align1 {
+        text-align: left;
+      }
+      .align2 {
+        text-align: right;
+      }
+
+      #justify {
+        text-align: justify;
+        border: 1px solid black;
+        padding: 10px;
+        width: 200px;
+        height: 210px;
+      }
+      p.x {
+        text-align-last: right;
+      }
+      p.y {
+        text-align-last: center;
+      }
+      p.z {
+        text-align-last: justify;
+      }
+      img.a {
+        vertical-align: baseline;
+        height: 90px;
+        width: 90px;
+      } 
+      img.b {
+        vertical-align: text-top;
+        height: 90px;
+        width: 90px;
+      } 
+      img.c {
+        vertical-align: text-bottom;
+        height: 90px;
+        width: 90px;
+      } 
+      img.d {
+        vertical-align: sub;
+        height: 90px;
+        width: 90px;
+      } 
+      img.e {
+        vertical-align: super;
+        height: 90px;
+        width: 90px;
+      }  
+    </style>
+  </head>
+  <body>
+    <h1>CSS Text</h1>
+    <h3>And It's Properties</h3>
+    <ul>
+      <li>Text Color</li>
+      <li>Text Alignment and Text direction</li>
+      <li>Text decoration</li>
+      <li>Text transformation</li>
+      <li>Text spacing</li>
+      <li>Text shadow</li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+      sit?
+    </p>
+
+    <h2>Text Alignment and Text direction.</h2>
+    <p>Properties</p>
+    <ol>
+      <li>text-align</li>
+      <li>text-align-last</li>
+      <li>direction</li>
+      <li>unicode-bidi</li>
+      <li>vertical-align</li>
+    </ol>
+    <p class="align">
+      It is a property which is used to set the horizontal alignment of a text.
+    </p>
+    <p class="align1">
+      It is a property which is used to set the horizontal alignment of a text.
+    </p>
+    <p class="align2">
+      It is a property which is used to set the horizontal alignment of a text.
+    </p>
+
+    <div id="justify">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+      veritatis ipsa vitae excepturi earum aliquam dolorum eaque ratione,
+      nesciunt, itaque eum! Ut magnam maxime, quam explicabo corporis voluptas
+      rem porro velit molestiae suscipit quos eveniet repudiandae odio magni
+      quidem corrupti.
+    </div>
+
+    <h3>Align Last</h3>
+    <p class="x">
+      Lorem ipsum dolor, sit amet consectetur 
+      adipisicing elit. Beatae, facere!
+    </p>
+    <p class="y">
+      Lorem ipsum dolor, sit amet consectetur 
+      adipisicing elit. Beatae, facere!
+    </p>
+    <p class="z">
+      Lorem ipsum dolor, sit amet consectetur 
+      adipisicing elit. Beatae, facere!
+    </p>
+
+    <h3>Text-direction & unicode-bidi</h3>
+    <p style="direction: rtl; unicode-bidi:bidi-override ;">Lorem ipsum dolor sit amet.</p>
+
+    <h2>vertical-align property</h2> 
+    <h6>vertical-align: Baseline (default): </h6>
+    <p>An Apple  
+        <img class="a" src="https://cdn.pixabay.com/photo/2022/08/24/23/12/apple-7408883_1280.png"> 
+        Phone is not good.
+    </p>
+
+    <h6>vertical-align: text-top </h6>
+     <p>An banana 
+        <img class="b" src="https://domf5oio6qrcr.cloudfront.net/medialibrary/6372/202ebeef-6657-44ec-8fff-28352e1f5999.jpg"> 
+        Fruit is good.
+    </p>
+
+    <h6>vertical-align: text-bottom </h6>
+    <p>An kiwi 
+        <img class="c" src="https://tse1.mm.bing.net/th?id=OIP.cevtJx8d8ItSLCVLYWDpWAHaFD&pid=Api&P=0&h=180"> 
+        Fruit is good.
+    </p>
+
+    <h6>vertical-align: sub </h6>
+    <p>An pomegranate
+        <img class="d" src="https://www.theayurveda.org/wp-content/uploads/2015/06/Ripe-pomegranate-fruit.jpg"> 
+        Fruit is good.
+    </p>
+
+    <h6>vertical-align: sup </h6>
+    <p>An Orange
+        <img class="e" src="https://www.tastingtable.com/img/gallery/are-oranges-named-after-the-color/intro-1666984048.jpg"> 
+        Fruit is good.
+    </p>
+  </body>
+</html>

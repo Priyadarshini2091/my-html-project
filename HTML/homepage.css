@@ -264,15 +264,20 @@ nav a:hover {
     color: #00c6ff;
 }
 
-h1, h2 {
+.header h1, h2 {
   text-align: center;
   margin-top: 30px;
   text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
 }
 
-/* h1, h2:hover {
-  transform: scale(1.05);
-} */
+.header h1:hover,
+.header h2:hover {
+    /* transform: scale(1.1); */
+    /* color: #00e6e6; */
+    transition: all 0.3s ease-in-out;
+    /* cursor: pointer; */
+}
+
 
 .gallery {
   display: grid;
